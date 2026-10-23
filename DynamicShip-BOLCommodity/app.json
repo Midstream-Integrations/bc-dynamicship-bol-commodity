@@ -1,0 +1,58 @@
+{
+  "id": "3eade1c0-e2fb-4278-aec3-afcde51d39e5",
+  "name": "Dynamic Ship BOL Commodity Lines and Pro Barcode",
+  "publisher": "Midstream Integrations",
+  "version": "1.0.0.0",
+  "brief": "Adds commodity descriptions, NMFC, freight class and a pro number barcode to the Insight Works Dynamic Ship Bill of Lading.",
+  "description": "Adds commodity descriptions, NMFC, freight class and a pro number barcode to the Insight Works Dynamic Ship Bill of Lading.",
+  "privacyStatement": "https://github.com/Midstream-Integrations/bc-dynamicship-bol-commodity/blob/main/PRIVACY.md",
+  "EULA": "https://github.com/Midstream-Integrations/bc-dynamicship-bol-commodity/blob/main/LICENSE",
+  "help": "https://github.com/Midstream-Integrations/bc-dynamicship-bol-commodity#readme",
+  "url": "https://github.com/Midstream-Integrations/bc-dynamicship-bol-commodity",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "9c55319d-f3b9-441b-9956-0a0a04decd4b",
+      "name": "Dynamic Ship: Integrated Shipping",
+      "publisher": "Insight Works",
+      "version": "2.0.0.0"
+    },
+    {
+      "id": "ba1776ba-1198-4b4c-a61e-c4612f1880d5",
+      "name": "IWorks Common",
+      "publisher": "Insight Works",
+      "version": "2.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50230,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

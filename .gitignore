@@ -1,0 +1,5 @@
+.alpackages/
+.snapshots/
+*.app
+rad.json
+.DS_Store
